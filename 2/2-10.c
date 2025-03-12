@@ -8,7 +8,7 @@ int main(void)
   printf("정수 a : ");    scanf("%d", &a);
   printf("정수 b : ");    scanf("%d", &b);
 
-  printf("a를 b로 나누면 몫은 %d, 나머지는 %d 입니다.\n", a/b, a%b);
+  printf("이들의 평균은 %f 입니다.\n", (double)(a+b)/2);
 
   return 0;
 }
